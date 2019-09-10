@@ -1,0 +1,93 @@
+.history {
+  width: 870px;
+  margin: 0 auto 3rem;
+  background-color: #f5f7fa;
+  -webkit-box-shadow: 0px 5px 5px 0px rgba(209, 202, 209, 1);
+  -moz-box-shadow: 0px 5px 5px 0px rgba(209, 202, 209, 1);
+  box-shadow: 0px 5px 5px 0px rgba(209, 202, 209, 1);
+}
+
+th {
+  width: 290px;
+  text-align: center;
+  padding: 27px 0;
+  font-size: 13px;
+  color: black;
+  font-weight: bold;
+  background-color: #ebeef2;
+}
+
+td {
+  width: 290px;
+  text-align: center;
+  padding: 27px 0;
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+  color: rgba(92, 105, 117, 255);
+  font-weight: 400;
+  background-color: white;
+}
+
+
+
+.balance {
+  width: 400px;
+  margin: 40px auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+  font-weight: bold;
+  color: rgba(92, 105, 117, 255);
+}
+
+.arrowUp {
+  color: #99c766;
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.arrowDown {
+  color: #e83a3e;
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+
+
+
+.controls {
+  background-color: #062c56;
+  display: flex;
+  justify-content: center;
+  padding: 55px 0;
+}
+
+.controls_input {
+  width: 260px;
+  padding: 10px;
+  font-size: 20px;
+  border-radius: 5px;
+  outline: none;
+  border: none;
+}
+
+.controls_button {
+  width: 187px;
+  font-size: 20px;
+  padding: 13px 0;
+  text-align: center;
+  background-color: #3884ff;
+  color: white;
+  border: none;
+  outline: none;
+  border-radius: 5px;
+}
+
+.controls_buttonDeposit {
+  composes: controls_button;
+  margin: 0 20px;
+}
